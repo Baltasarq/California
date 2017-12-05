@@ -1,0 +1,8 @@
+# Backup files
+*~
+*.bak
+
+# Squiffy generated files (apart from the story itself)
+index.html
+style.css
+jquery.min.js

@@ -1,0 +1,38 @@
+<!-- California (c) 2017 MIT License baltasarq@gmail.com -->
+<!---->
+
+@title California
+# California
+<p align="center"><img src="Res/road.jpg"></p>
+Enciendes [la radio del coche](CarRadio), conduciendo por la carretera de noche.
+
+[CarRadio]:
+"*On a dark desert highway, cool wind in my hair.
+Warm smell of colitas, rising up through the air.
+Up ahead in the distance, [I saw a shimmering light](ViewOfMotel).
+My head grew heavy and my sight grew dim,
+I had to stop for the night.*"
+
+Estás cansado, debes parar por esta noche, y ves en la distancia un [[motel]](EnteringMotel) a un lado.
+
+[ViewOfMotel]:
+<p align="center"><img src="Res/motel.jpg"></p>
+Un motel con un cartel con la luz encendida destaca ahora mismo en la distancia.
+
+[[EnteringMotel]]:
+La [mujer](WomanDesc) que lleva el hotel, alerta, espera desde el dintel de la puerta.
+
+Un equipo de música reproducía una agradable [melodía](RadioEntrance).
+
+[RadioEntrance]:
+"*There she stood in the doorway;
+I heard the mission bell.
+And I was thinking to myself:
+'This could be heaven or this could be Hell.'
+Then she lit up a candle and she showed me the way.
+There were voices down the corridor,
+I thought I heard them say...
+'Welcome to the Hotel California;
+such a lovely place, such a lovely face.
+Plenty of room at the Hotel California.
+Any time of year, you can find it here.'*"
