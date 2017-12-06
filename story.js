@@ -626,30 +626,25 @@ var set = squiffy.set;
 
 
 squiffy.story.start = '_default';
-squiffy.story.id = '13db8a9695';
+squiffy.story.id = '37ed1e913f';
 squiffy.story.sections = {
 	'_default': {
-		'text': "<!-- California (c) 2017 MIT License baltasarq@gmail.com -->\n<!---->\n<h1 id=\"hotel-california\">Hotel California</h1>\n<p align=\"center\"><img src=\"Res/road.jpg\"></p>\n\n<p>Enciendes la radio del coche, conduciendo por la carretera camino de Los Ángeles.</p>\n<p>&quot;<em>On a dark desert highway, cool wind in my hair\nWarm smell of colitas, rising up through the air\nUp ahead in the distance, <a class=\"squiffy-link link-passage\" data-passage=\"ViewOfMotel\" role=\"link\" tabindex=\"0\">I saw a shimmering light</a>\nMy head grew heavy and my sight grew dim\n<a class=\"squiffy-link link-section\" data-section=\"EnteringHotel\" role=\"link\" tabindex=\"0\">I had to stop for the night</a>.</em>&quot;</p>\n<p>Estás cansado, debes parar a descansar, y ves en la distancia un <a class=\"squiffy-link link-section\" data-section=\"EnteringMotel\" role=\"link\" tabindex=\"0\">motel en el que podrías parar</a>.</p>",
+		'text': "<!-- California (c) 2017 MIT License baltasarq@gmail.com -->\n<!---->\n<h1 id=\"california\">California</h1>\n<p><p align=\"center\"><img src=\"Res/road.jpg\"></p>\nEnciendes <a class=\"squiffy-link link-passage\" data-passage=\"CarRadio\" role=\"link\" tabindex=\"0\">la radio del coche</a>, conduciendo por la carretera de noche.</p>",
 		'passages': {
+			'CarRadio': {
+				'text': "<p>&quot;<em>On a dark desert highway, cool wind in my hair.\nWarm smell of colitas, rising up through the air.\nUp ahead in the distance, <a class=\"squiffy-link link-passage\" data-passage=\"ViewOfMotel\" role=\"link\" tabindex=\"0\">I saw a shimmering light</a>.\nMy head grew heavy and my sight grew dim,\nI had to stop for the night.</em>&quot;</p>\n<p>Estás cansado, debes parar por esta noche, y ves en la distancia un <a class=\"squiffy-link link-section\" data-section=\"EnteringMotel\" role=\"link\" tabindex=\"0\">motel</a> a un lado.</p>",
+			},
 			'ViewOfMotel': {
-				'text': "<p><p align=\"center\"><img src=\"Res/motel.jpg\"></p>\nUn motel con las luces encendidas destaca ahora mismo en lontananza.</p>",
+				'text': "<p><p align=\"center\"><img src=\"Res/motel.jpg\"></p>\nUn motel con un cartel con la luz encendida destaca ahora mismo en la distancia.</p>",
 			},
 		},
 	},
 	'EnteringMotel': {
-		'text': "<p>In addition to sections, Squiffy has the concept of passages. These are sections of text that don&#39;t advance the story. For example, you can click this <a class=\"squiffy-link link-passage\" data-passage=\"passage link\" role=\"link\" tabindex=\"0\">passage link</a>, and this <a class=\"squiffy-link link-passage\" data-passage=\"other passage link\" role=\"link\" tabindex=\"0\">other passage link</a>, but the story won&#39;t advance until you click this <a class=\"squiffy-link link-section\" data-section=\"section link\" role=\"link\" tabindex=\"0\">section link</a>.</p>",
+		'text': "<p>La <a class=\"squiffy-link link-passage\" data-passage=\"WomanDesc\" role=\"link\" tabindex=\"0\">mujer</a> que lleva el hotel, alerta, espera desde el dintel de la puerta.</p>\n<p>Un equipo de música reproducía una agradable <a class=\"squiffy-link link-passage\" data-passage=\"RadioEntrance\" role=\"link\" tabindex=\"0\">melodía</a>.</p>",
 		'passages': {
-			'passage link': {
-				'text': "<p>This is the text for the first passage link.</p>",
+			'RadioEntrance': {
+				'text': "<p>&quot;<em>There she stood in the doorway;\nI heard the mission bell.\nAnd I was thinking to myself:\n&#39;This could be heaven or this could be Hell.&#39;\nThen she lit up a candle and she showed me the way.\nThere were voices down the corridor,\nI thought I heard them say...\n&#39;Welcome to the Hotel California;\nsuch a lovely place, such a lovely face.\nPlenty of room at the Hotel California.\nAny time of year, you can find it here.&#39;</em>&quot;</p>",
 			},
-			'other passage link': {
-				'text': "<p>This is the text for the second passage link.</p>",
-			},
-		},
-	},
-	'section link': {
-		'text': "<p>When a new section appears, any unclicked passage links from the previous section are disabled.</p>",
-		'passages': {
 		},
 	},
 }

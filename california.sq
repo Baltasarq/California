@@ -4,19 +4,18 @@
 @title California
 # California
 <p align="center"><img src="Res/road.jpg"></p>
-Enciendes [la radio del coche](CarRadio), conduciendo por la carretera de noche.
+Enciendes [la radio del coche](CarRadio), conduciendo por una carretera serpenteante. Cansado, [[debes parar por esta noche]](EnteringMotel), y ves en la distancia el cartel de un [motel](ViewOfMotel), cimbreante.
 
 [CarRadio]:
 "*On a dark desert highway, cool wind in my hair.
 Warm smell of colitas, rising up through the air.
-Up ahead in the distance, [I saw a shimmering light](ViewOfMotel).
+Up ahead in the distance, I saw a shimmering light.
 My head grew heavy and my sight grew dim,
 I had to stop for the night.*"
 
-Estás cansado, debes parar por esta noche, y ves en la distancia un [[motel]](EnteringMotel) a un lado.
-
 [ViewOfMotel]:
 <p align="center"><img src="Res/motel.jpg"></p>
+
 Un motel con un cartel con la luz encendida destaca ahora mismo en la distancia.
 
 [[EnteringMotel]]:
