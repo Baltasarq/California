@@ -1,10 +1,9 @@
 <!-- California (c) 2017 MIT License baltasarq@gmail.com -->
-<!---->
 
 @title California
 # California
 <p align="center"><img src="Res/road.jpg"></p>
-Enciendes [la radio del coche](CarRadio), conduciendo por una carretera serpenteante. Cansado, [[debes parar por esta noche]](EnteringMotel), y ves en la distancia el cartel de un [motel](ViewOfMotel), cimbreante.
+Enciendes [la radio del coche](CarRadio), conduciendo por una carretera serpenteante. Cansado, [[debes parar por esta noche]](PL4), y ves en la distancia el cartel de un [motel](ViewOfMotel), cimbreante.
 
 [CarRadio]:
 "*On a dark desert highway, cool wind in my hair.
@@ -18,20 +17,79 @@ I had to stop for the night.*"
 
 Un motel con un cartel con la luz encendida destaca ahora mismo en la distancia.
 
-[[EnteringMotel]]:
-La [mujer](WomanDesc) que lleva el hotel, alerta, espera desde el dintel de la puerta.
+[[Road]]:
+Yo escaped.
+
+[[PL4]]:
+## Aparcamiento frente a la recepción
+[[Reception]].
+[[PL3]].
+[[Road]].
+
+[[PL3]]:
+## Aparcamiento frente a la habitación 11.
+[[PL2]].
+[[PL4]].
+
+[[PL2]]:
+## Aparcamiento frente a la habitación 12.
+[[PL3]].
+[[PL1]].
+
+[[PL1]]:
+## Aparcamiento frente a la habitación 13.
+[[PL2]].
+[[PL0]].
+
+[[PL0]]:
+## Aparcamiento frente a la habitación 14.
+[[PL1]].
+[[SouthCorner]].
+
+[[SouthCorner]]:
+## Esquina
+[[PL0]].
+[[IceMachine]].
+
+[[IceMachine]]:
+[[SouthCorner]].
+[[NorthCorner]].
+
+[[NorthCorner]]:
+[[Garbage]].
+[[IceMachine]].
+
+[[Garbage]]:
+[[NorthCorner]].
+
+[[Reception]]:
+La [mujer](WomanDesc) que lleva el hotel, alerta, espera desde el dintel de la puerta. [[PL4]]. [[Hall]].
 
 Un equipo de música reproducía una agradable [melodía](RadioEntrance).
+
+[WomanDesc]:
+Su belleza hostiga tu mente, es ciertamente una mujer hermosa. Confuso por su presencia, apenas puedes pensar en otra cosa.
 
 [RadioEntrance]:
 "*There she stood in the doorway;
 I heard the mission bell.
 And I was thinking to myself:
-'This could be heaven or this could be Hell.'
-Then she lit up a candle and she showed me the way.
-There were voices down the corridor,
-I thought I heard them say...
-'Welcome to the Hotel California;
-such a lovely place, such a lovely face.
-Plenty of room at the Hotel California.
-Any time of year, you can find it here.'*"
+'This could be heaven or this could be Hell.'*"
+
+[[Hall]]:
+[[Corridor4]]. [[Reception]]. [[Dinner]].
+
+[[Dinner]]:
+[[Hall]].
+
+[[Corridor4]]:
+In front of room 11. [[Hall]]. [[Corridor3]].
+
+[[Corridor3]]:
+In front of room 12. [[Corridor4]]. [[Corridor2]].
+
+[[Corridor2]]:
+In front of room 13. [[Corridor3]]. [[Corridor1]].
+
+[[Corridor1]]:
+In front of room 14. [[Corridor2]].

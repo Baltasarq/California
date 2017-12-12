@@ -629,21 +629,29 @@ squiffy.story.start = '_default';
 squiffy.story.id = '37ed1e913f';
 squiffy.story.sections = {
 	'_default': {
-		'text': "<!-- California (c) 2017 MIT License baltasarq@gmail.com -->\n<!---->\n<h1 id=\"california\">California</h1>\n<p><p align=\"center\"><img src=\"Res/road.jpg\"></p>\nEnciendes <a class=\"squiffy-link link-passage\" data-passage=\"CarRadio\" role=\"link\" tabindex=\"0\">la radio del coche</a>, conduciendo por la carretera de noche.</p>",
+		'text': "<!-- California (c) 2017 MIT License baltasarq@gmail.com -->\n<!---->\n<h1 id=\"california\">California</h1>\n<p><p align=\"center\"><img src=\"Res/road.jpg\"></p>\nEnciendes <a class=\"squiffy-link link-passage\" data-passage=\"CarRadio\" role=\"link\" tabindex=\"0\">la radio del coche</a>, conduciendo por una carretera serpenteante. Cansado, <a class=\"squiffy-link link-section\" data-section=\"ParkingLot\" role=\"link\" tabindex=\"0\">debes parar por esta noche</a>, y ves en la distancia el cartel de un <a class=\"squiffy-link link-passage\" data-passage=\"ViewOfMotel\" role=\"link\" tabindex=\"0\">motel</a>, cimbreante.</p>",
 		'passages': {
 			'CarRadio': {
-				'text': "<p>&quot;<em>On a dark desert highway, cool wind in my hair.\nWarm smell of colitas, rising up through the air.\nUp ahead in the distance, <a class=\"squiffy-link link-passage\" data-passage=\"ViewOfMotel\" role=\"link\" tabindex=\"0\">I saw a shimmering light</a>.\nMy head grew heavy and my sight grew dim,\nI had to stop for the night.</em>&quot;</p>\n<p>Estás cansado, debes parar por esta noche, y ves en la distancia un <a class=\"squiffy-link link-section\" data-section=\"EnteringMotel\" role=\"link\" tabindex=\"0\">motel</a> a un lado.</p>",
+				'text': "<p>&quot;<em>On a dark desert highway, cool wind in my hair.\nWarm smell of colitas, rising up through the air.\nUp ahead in the distance, I saw a shimmering light.\nMy head grew heavy and my sight grew dim,\nI had to stop for the night.</em>&quot;</p>",
 			},
 			'ViewOfMotel': {
-				'text': "<p><p align=\"center\"><img src=\"Res/motel.jpg\"></p>\nUn motel con un cartel con la luz encendida destaca ahora mismo en la distancia.</p>",
+				'text': "<p align=\"center\"><img src=\"Res/motel.jpg\"></p>\n\n<p>Un motel con un cartel con la luz encendida destaca ahora mismo en la distancia.</p>",
 			},
 		},
 	},
-	'EnteringMotel': {
-		'text': "<p>La <a class=\"squiffy-link link-passage\" data-passage=\"WomanDesc\" role=\"link\" tabindex=\"0\">mujer</a> que lleva el hotel, alerta, espera desde el dintel de la puerta.</p>\n<p>Un equipo de música reproducía una agradable <a class=\"squiffy-link link-passage\" data-passage=\"RadioEntrance\" role=\"link\" tabindex=\"0\">melodía</a>.</p>",
+	'ParkingLot': {
+		'text': "<p align=\"center\"><img src=\"Res/parking_lot.jpg\"></p>\n\n<p>Desde aquí puedes ir a la <a class=\"squiffy-link link-section\" data-section=\"Reception\" role=\"link\" tabindex=\"0\">recepción</a>.</p>",
 		'passages': {
-			'RadioEntrance': {
-				'text': "<p>&quot;<em>There she stood in the doorway;\nI heard the mission bell.\nAnd I was thinking to myself:\n&#39;This could be heaven or this could be Hell.&#39;\nThen she lit up a candle and she showed me the way.\nThere were voices down the corridor,\nI thought I heard them say...\n&#39;Welcome to the Hotel California;\nsuch a lovely place, such a lovely face.\nPlenty of room at the Hotel California.\nAny time of year, you can find it here.&#39;</em>&quot;</p>",
+		},
+	},
+	'Reception': {
+		'text': "<p>La <a class=\"squiffy-link link-passage\" data-passage=\"WomanDesc\" role=\"link\" tabindex=\"0\">mujer</a> que lleva el hotel, alerta, espera desde el dintel de la puerta. Una radio reproducía un <a class=\"squiffy-link link-passage\" data-passage=\"RadioParkingLot\" role=\"link\" tabindex=\"0\">agradable melodía</a>.</p>",
+		'passages': {
+			'WomanDesc': {
+				'text': "<p>Una mujer hermosa; de repente, no puedes pensar en otra cosa.</p>",
+			},
+			'RadioParkingLot': {
+				'text': "<p>&quot;<em>There she stood in the doorway;\nI heard the mission bell.\nAnd I was thinking to myself:\n&#39;This could be heaven or this could be Hell.&#39;</em>&quot;</p>",
 			},
 		},
 	},
