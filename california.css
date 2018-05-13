@@ -1,11 +1,40 @@
-body
-{
-    background-color: black;
-    color: white;
+// California (c) 2018 Baltasar MIT License <baltasarq@gmail.com>
+
+body {
 }
+
+a, a:visited {
+    color: navy;
+    text-family: serif;
+    text-decoration: none;
+}
+
+a:hover { color: blue }
 
 firstP {
     indent: 5pt
+}
+
+#dvData, #dvDataHint {
+    width: 75%;
+    margin: 25px 25px 25px 25px;
+}
+
+#dvData {
+    color: gray;
+    //background-color: dodgerblue;
+    padding: 10px 10px 10px 10px
+}
+
+#dvDataHint {
+    color: black
+    background-color: red;
+    text-align: right;
+    padding: 0 0 0 0
+}
+#dvDataHint a {
+    text-weight: bold;
+    color: navy
 }
 
 a.squiffy-link
@@ -42,6 +71,7 @@ div#squiffy
 {
     font-size: 18px;
 }
+
 hr {
     border: 0;
     height: 0;
