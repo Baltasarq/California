@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>7257910F-90AC-4929-8F80-A7EBD07CADD6</ifid>
+            <format>html</format>
+        </identification>
+        <bibliographic>
+            <title>California</title>
+            <author>Baltasar</author>
+            <language>ES</language>
+            <headline>Conduzco por una oscura, desierta carretera, y debo parar por esta noche.</headline>
+            <genre>horror</genre>
+            <forgiveness>merciful</forgiveness>
+            <description>Conduzco por una oscura, desierta carretera, el viento agita mi pelo... y al fondo veo una luz parpadeante... debo parar por esta noche.<br/>Historia de terror interactiva basada en "Hotel California", de los Eagles.</description>
+        </bibliographic>
+        <contacts>
+            <authoremail>baltasarq@gmail.com</authoremail>
+            <url>http://caad.es/baltasarq/</url>
+        </contacts>
+        <release>
+            <version>1</version>
+            <releasedate>2018/07/11</releasedate>
+        </release>
+        <colophon>
+            <generator>Babble</generator>
+            <originated>2018/07/11</originated>
+        </colophon>
+    </story>
+</ifindex>

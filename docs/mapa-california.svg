@@ -14,7 +14,7 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   inkscape:version="0.92.2 2405546, 2018-03-11"
    sodipodi:docname="mapa-california.svg">
   <defs
      id="defs2" />
@@ -26,14 +26,14 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="366.47037"
-     inkscape:cy="508.53061"
+     inkscape:cx="331.11503"
+     inkscape:cy="993.40383"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g840-1-4"
      showgrid="false"
      inkscape:window-width="948"
-     inkscape:window-height="1000"
-     inkscape:window-x="-4"
+     inkscape:window-height="735"
+     inkscape:window-x="58"
      inkscape:window-y="0"
      inkscape:window-maximized="0" />
   <metadata
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -183,186 +183,151 @@
            x="-66.282845"
            id="tspan825-7-6"
            sodipodi:role="line">Corridor3</tspan></text>
+      <rect
+         style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332"
+         id="rect815-0-9"
+         width="40.624966"
+         height="32.072342"
+         x="-14.967093"
+         y="-18.912582" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="-13.363478"
+         y="-1.8073298"
+         id="text827-3-75"><tspan
+           sodipodi:role="line"
+           id="tspan825-7-9"
+           x="-13.363478"
+           y="-1.8073298"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">Corridor4</tspan><tspan
+           id="tspan940"
+           sodipodi:role="line"
+           x="-13.363478"
+           y="11.421837"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332" /></text>
+      <rect
+         y="-18.378044"
+         x="39.021347"
+         height="32.072342"
+         width="40.624966"
+         id="rect815-0-8"
+         style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332" />
+      <text
+         id="text827-3-5"
+         y="-1.2727906"
+         x="40.624966"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           y="-1.2727906"
+           x="40.624966"
+           id="tspan825-7-3"
+           sodipodi:role="line">Hall</tspan></text>
       <g
-         transform="translate(52.919367)"
-         id="g840-1-0">
+         transform="translate(-31.537805,12.294398)"
+         id="g840-1-3">
         <rect
-           y="-18.912582"
-           x="-67.886459"
+           y="21.712385"
+           x="16.570711"
            height="32.072342"
            width="40.624966"
-           id="rect815-0-9"
+           id="rect815-0-83"
            style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332" />
         <text
-           id="text827-3-75"
-           y="-1.8073298"
-           x="-66.282845"
+           id="text827-3-79"
+           y="38.817638"
+           x="18.174328"
            style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
            xml:space="preserve"><tspan
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
-             y="-1.8073298"
-             x="-66.282845"
-             id="tspan825-7-9"
-             sodipodi:role="line">Corridor4</tspan><tspan
+             y="38.817638"
+             x="18.174328"
+             id="tspan825-7-37"
+             sodipodi:role="line">Room11</tspan></text>
+      </g>
+      <rect
+         style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332"
+         id="rect815-0-84"
+         width="40.624966"
+         height="32.072342"
+         x="37.952271"
+         y="34.541325" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         x="39.555889"
+         y="51.64658"
+         id="text827-3-3"><tspan
+           sodipodi:role="line"
+           id="tspan825-7-7"
+           x="39.555889"
+           y="51.64658"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">Reception</tspan></text>
+      <g
+         transform="translate(20.847022,60.937454)"
+         id="g840-1-97">
+        <rect
+           y="21.712385"
+           x="16.570711"
+           height="32.072342"
+           width="40.624966"
+           id="rect815-0-99"
+           style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332" />
+        <text
+           id="text827-3-32"
+           y="38.817638"
+           x="18.174328"
+           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           xml:space="preserve"><tspan
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
-             y="11.421838"
-             x="-66.282845"
+             y="38.817638"
+             x="18.174328"
+             id="tspan825-7-4"
+             sodipodi:role="line">Road</tspan></text>
+      </g>
+      <g
+         id="g840-1-8"
+         transform="translate(21.916101,-84.457171)">
+        <rect
+           style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332"
+           id="rect815-0-7"
+           width="40.624966"
+           height="32.072342"
+           x="16.570711"
+           y="21.712385" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="18.174328"
+           y="38.817638"
+           id="text827-3-4"><tspan
              sodipodi:role="line"
-             id="tspan940" /></text>
-        <g
-           transform="translate(-30.468731,-40.090429)"
-           id="g840-1-7">
-          <rect
-             y="21.712385"
-             x="16.570711"
-             height="32.072342"
-             width="40.624966"
-             id="rect815-0-8"
-             style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332" />
-          <text
-             id="text827-3-5"
-             y="38.817638"
+             id="tspan825-7-1"
              x="18.174328"
-             style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
-               y="38.817638"
-               x="18.174328"
-               id="tspan825-7-3"
-               sodipodi:role="line">Hall</tspan></text>
-          <g
-             transform="translate(-53.988441,52.384827)"
-             id="g840-1-3">
-            <rect
-               y="21.712385"
-               x="16.570711"
-               height="32.072342"
-               width="40.624966"
-               id="rect815-0-83"
-               style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332" />
-            <text
-               id="text827-3-79"
-               y="38.817638"
-               x="18.174328"
-               style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-               xml:space="preserve"><tspan
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
-                 y="38.817638"
-                 x="18.174328"
-                 id="tspan825-7-37"
-                 sodipodi:role="line">Room11</tspan></text>
-          </g>
-          <g
-             transform="translate(-1.0690749,52.919369)"
-             id="g840-1-85">
-            <rect
-               y="21.712385"
-               x="16.570711"
-               height="32.072342"
-               width="40.624966"
-               id="rect815-0-84"
-               style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332" />
-            <text
-               id="text827-3-3"
-               y="38.817638"
-               x="18.174328"
-               style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-               xml:space="preserve"><tspan
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
-                 y="38.817638"
-                 x="18.174328"
-                 id="tspan825-7-7"
-                 sodipodi:role="line">Reception</tspan></text>
-            <g
-               transform="translate(-1.6036171,47.573973)"
-               id="g840-1-1">
-              <rect
-                 y="21.712385"
-                 x="16.570711"
-                 height="32.072342"
-                 width="40.624966"
-                 id="rect815-0-3"
-                 style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332" />
-              <text
-                 id="text827-3-8"
-                 y="38.817638"
-                 x="18.174328"
-                 style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-                 xml:space="preserve"><tspan
-                   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
-                   y="38.817638"
-                   x="18.174328"
-                   id="tspan825-7-0"
-                   sodipodi:role="line">Parking Lot 4</tspan></text>
-              <g
-                 transform="translate(-0.53453857,48.108515)"
-                 id="g840-1-97">
-                <rect
-                   y="21.712385"
-                   x="16.570711"
-                   height="32.072342"
-                   width="40.624966"
-                   id="rect815-0-99"
-                   style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332" />
-                <text
-                   id="text827-3-32"
-                   y="38.817638"
-                   x="18.174328"
-                   style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-                   xml:space="preserve"><tspan
-                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
-                     y="38.817638"
-                     x="18.174328"
-                     id="tspan825-7-4"
-                     sodipodi:role="line">Road</tspan></text>
-              </g>
-            </g>
-          </g>
-        </g>
-        <g
-           style=""
-           transform="translate(-31.003266,-84.457171)"
-           id="g840-1-8">
-          <rect
-             y="21.712385"
-             x="16.570711"
-             height="32.072342"
-             width="40.624966"
-             id="rect815-0-7"
-             style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332" />
-          <text
-             id="text827-3-4"
              y="38.817638"
-             x="18.174328"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">Dinner</tspan></text>
+        <g
+           id="g840-1-9"
+           transform="translate(-107.44235,96.21703)">
+          <rect
+             style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332"
+             id="rect815-0-0"
+             width="40.624966"
+             height="32.072342"
+             x="16.570711"
+             y="21.712385" />
+          <text
+             xml:space="preserve"
              style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-             xml:space="preserve"><tspan
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
-               y="38.817638"
+             x="18.174328"
+             y="38.817638"
+             id="text827-3-9"><tspan
+               sodipodi:role="line"
+               id="tspan825-7-8"
                x="18.174328"
-               id="tspan825-7-1"
-               sodipodi:role="line">Dinner</tspan></text>
-          <g
-             transform="translate(-107.44235,96.21703)"
-             id="g840-1-9">
-            <rect
-               y="21.712385"
-               x="16.570711"
-               height="32.072342"
-               width="40.624966"
-               id="rect815-0-0"
-               style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332" />
-            <text
-               id="text827-3-9"
                y="38.817638"
-               x="18.174328"
-               style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-               xml:space="preserve"><tspan
-                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
-                 y="38.817638"
-                 x="18.174328"
-                 id="tspan825-7-8"
-                 sodipodi:role="line">Room 12</tspan></text>
-          </g>
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">Room 12</tspan></text>
         </g>
       </g>
     </g>
