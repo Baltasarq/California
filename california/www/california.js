@@ -21,14 +21,54 @@ ctrl.setVersion( "1.0 20180513" );
 // *** Locs ==============================================================
 // --------------------------------------------------------------- Road --
 var locRoad = ctrl.places.creaLoc(
-    "Una oscura y desierta carretera",
+    "Oscura y desierta carretera",
     [ "carretera" ],
-    "Muy oscura."
+    "Notas el aire en tu pelo mientras escuchas ${la radio del coche, ex radio} \
+    conduciendo por una carretera serpenteante. \
+    Cansado, ${debes parar por esta noche, n}, y ves en la distancia \
+    el ${cartel de un motel, ex cartel}, cimbreante."
 );
+
 locRoad.pic = "res/road.jpg";
+
 locRoad.getExitsDesc = function() {
-    return "";
-}
+    return "Tu cabeza te pesa y tu mirada se estrecha: debes ${parar, n} por esta noche.";
+};
+
+
+const objRadio = ctrl.creaObj(
+    "radio",
+    [],
+    "La radio del coche, al lado del cenicero, lleno de <i>colitas</i>.",
+    locRoad,
+    Ent.Scenery
+);
+
+objRadio.preExamine = function() {
+    var toret = this.desc;
+    
+    toret += "<br/><i>On a dark desert highway, cool wind in my hair. \
+                Warm smell of colitas, rising up through the air. \
+                Up ahead in the distance, I saw a shimmering light. \
+                My head grew heavy and my sight grew dim, \
+                I had to stop for the night.</i>";
+    
+    return toret;
+};
+
+
+const objCartelMotel = ctrl.creaObj(
+    "cartel",
+    [ "anuncio" ],
+    "Un motel con un cartel que rezuma elegancia destaca ahora mismo en la distancia.",
+    locRoad,
+    Ent.Scenery
+);
+
+
+// --------------------------------------------------------------- Road --
+
+
 
 var locBordeDelBosque = ctrl.places.creaLoc(
     "Borde del bosque",
