@@ -1,4 +1,4 @@
-// California (c) Baltasar 2018 MIT License <baltasarq@gmail.com>
+// California (c) Baltasar 2018/19 MIT License <baltasarq@gmail.com>
 
 
 ctrl.setTitle( "California" );
@@ -20,7 +20,7 @@ ctrl.setVersion( "1.0 20180513" );
 
 // *** Locs ==============================================================
 // --------------------------------------------------------------- Road --
-var locRoad = ctrl.places.creaLoc(
+const locRoad = ctrl.places.creaLoc(
     "Oscura y desierta carretera",
     [ "carretera" ],
     "Notas el aire en tu pelo mientras escuchas \
@@ -48,7 +48,7 @@ const objRadio = ctrl.creaObj(
 
 objRadio.songShown = false;
 objRadio.preExamine = function() {
-    var toret = this.desc;
+    let toret = this.desc;
 
     if ( !this.songShown ) {
         toret += "<br/><i>\"On a dark desert highway, cool wind in my hair.\
@@ -74,20 +74,77 @@ const objCartelMotel = ctrl.creaObj(
 
 objCartelMotel.postExamine = function() {
     ctrl.places.showPic( "res/motel.jpg" );
-}
+};
 
-// --------------------------------------------------------------- PL3 --------
+// --------------------------------------------- Reception Parking ------------
+const locPLReception = ctrl.places.creaLoc(
+    "Aparcamiento de recepción",
+    [ "aparcamiento", "parking" ],
+    "Delante la ${recepción, n}, detrás tu ${coche, entra en coche}, \
+     a la izquierda, el ${aparcamiento, o} de refilón."
+);
+locPLReception.pic = "res/entrance.jpg";
+locPLReception.setExitBi( "sur", locRoad );
+
+locPLReception.getExitsDesc = function() {
+    return "Tras de ti, la ${carretera, s}, \
+            delante ${la recepción, n}, a la izquierda ${más aparcamiento, o}.";
+};
+
+const objReceptionDoor = ctrl.creaObj(
+    "puerta 11",
+    [ "puerta" ],
+    "puerta 11",
+    locPLReception,
+    Ent.Scenery
+);
+
+const objFakeCar = ctrl.creaObj(
+    "coche",
+    [ "auto" ],
+    "Tu coche amado, un Camaro muy cuidado.",
+    locPLReception,
+    Ent.Scenery
+);
+objFakeCar.preEnter = function() {
+    return ctrl.goto( locCar );
+};
+
+// --------------------------------------------------------------- Car --------
+const locCar = ctrl.places.creaLoc(
+    "Coche",
+    [ "auto" ],
+    "Sentado en tu coche, puedes volver a la ${ruta del asfalto, s}, \
+    o quizás ${salir, salir}, aparte de mantenerte sentado."
+);
+locCar.pic = "res/camaro.jpg";
+locCar.setExitBi( "sur", locRoad );
+
+locCar.getExitsDesc = function() {
+    return "Podrías volver a la ${ruta asfaltada, s}, pero tu mente \
+           se encuentra realmente cansada, \
+           mejor hacer la ${parada deseada, salir}.";
+};
+
+locCar.preExit = function() {
+    return ctrl.goto( locPLReception );
+};
+
+// --------------------------------------------------------------- PL1 --------
 const locPL1 = ctrl.places.creaLoc(
     "Aparcamiento 1",
      [ "aparcamiento", "parking" ],
      "El aparcamiento se extiende en ambas direcciones, \
-      desde la recepción al extremo en septentrión. \
-      Enfrente puedes ver ${una puerta, ex hab11}."
+      desde la ${recepción, e} al extremo en ${septentrión, o}. \
+      Enfrente puedes ver ${la puerta 11, ex puerta}, \
+      en el asfalto ves pintado PL1."
 );
+locPL1.pic = "res/parking_lot2.jpg";
+locPL1.setExitBi( "este", locPLReception );
 
 locPL1.getExitsDesc = function() {
-    return "A tu derecha, la ${recepción, e}, \
-            a tu izquierda otro ${aparcamiento, o}.";
+    return "A tu izquierda mucho ${aparcamiento, o}, \
+            a la ${recepción, e} podrías ir, guardando mucho aliento.";
 };
 
 const objPuertaHab11 = ctrl.creaObj(
@@ -102,12 +159,12 @@ const objPuertaHab11 = ctrl.creaObj(
 const locPL2 = ctrl.places.creaLoc(
     "Aparcamiento 2",
     [ "aparcamiento", "parking" ],
-    "El aparcamiento se extiende en ambas direcciones, \
-     desde la recepción al extremo en septentrión. \
-     Enfrente puedes ver ${una puerta, ex hab11}."
+    "Más aparcamiento, a ${izquierda, o} y ${derecha, e} hasta la extenuación. \
+     Además, está la puerta a una habitación ${la puerta 12, ex puerta}, \
+     en el asfalto ves pintado PL2."
 );
-
-locPL2.setExitBi( "e", locPL1 );
+locPL2.pic = "res/parking_lot.jpg";
+locPL2.setExitBi( "este", locPL1 );
 locPL2.getExitsDesc = function() {
     return "A tu derecha, un ${aparcamiento, e}, \
             a tu izquierda ${otro, o}, cierto.";
@@ -125,12 +182,12 @@ const objPuertaHab12 = ctrl.creaObj(
 const locPL3 = ctrl.places.creaLoc(
     "Aparcamiento 3",
     [ "aparcamiento", "parking" ],
-    "El aparcamiento se extiende en ambas direcciones, \
+    "Más aparcamiento a ${izquierda, o} y ${derecha, e}, \
      desde la recepción al extremo en septentrión. \
-     Enfrente puedes ver ${una puerta, ex hab13}."
+     Enfrente puedes ver ${la puerta 13, ex puerta}. El asfalto indica PL3."
 );
-
-locPL3.setExitBi( "e", locPL2 );
+locPL3.pic = "res/parking_lot.jpg";
+locPL3.setExitBi( "este", locPL2 );
 locPL3.getExitsDesc = function() {
     return "A tu derecha, un ${aparcamiento, e}, \
             a tu izquierda ${otro, o}, cierto.";
@@ -148,12 +205,12 @@ const objPuertaHab13 = ctrl.creaObj(
 const locPL4 = ctrl.places.creaLoc(
     "Aparcamiento 4",
     [ "aparcamiento", "parking" ],
-    "El aparcamiento se extiende en ambas direcciones, \
-     desde la recepción al extremo en septentrión. \
-     Enfrente puedes ver ${una puerta, ex hab14}."
+    "El motel casi termina ${en esquina, o} este punto, \
+     para volver a la ${recepción, e} necesitarías correr al punto. \
+     Enfrente puedes ver ${la puerta 14, ex puerta}. En el asfalto PL4 pintado."
 );
-
-locPL4.setExitBi( "e", locPL3 );
+locPL4.pic = "res/parking_lot2.jpg";
+locPL4.setExitBi( "este", locPL3 );
 locPL4.getExitsDesc = function() {
     return "A tu derecha, un ${aparcamiento, e}, \
             a tu izquierda ${otro, o}, cierto.";
@@ -175,8 +232,8 @@ const locSouthCorner = ctrl.places.creaLoc(
     "Termina aquí la fachada del edificio, junto a una \
      ${máquina de hielo, ex maquina}."
 );
-
-locSouthCorner.setExitBi( "e", locPL4 );
+locSouthCorner.pic = "res/parking_lot_corner.jpg";
+locSouthCorner.setExitBi( "este", locPL4 );
 locSouthCorner.getExitsDesc = function() {
     return "A tu derecha, un ${aparcamiento, e}, \
             hacia delante, por la ${esquina, n}, al motel das un rodeo.";
@@ -187,7 +244,8 @@ const objIceMachine = ctrl.creaObj(
     [ "maquina", "hielo" ],
     "La máquina de hielo tiene algo de hielo en su interior. Poco a poco \
      se irá formando más.",
-    locSouthCorner
+    locSouthCorner,
+    Ent.Scenery
 );
 
 // ------------------------------------------------------ Alley ---------------
@@ -197,18 +255,19 @@ const locAlley = ctrl.places.creaLoc(
     "El callejón termina en un muro donde se alinean \
     ${cubos de basura, ex cubos}."
 );
-
-locAlley.setExitBi( "s", locSouthCorner );
+locAlley.pic = "res/dumps_in_alley.jpg";
+locAlley.setExitBi( "sur", locSouthCorner );
 locAlley.getExitsDesc = function() {
-    return "A tu derecha, un ${aparcamiento, e}, \
-                hacia delante, por la ${esquina, n}, al motel das un rodeo.";
+    return "Hacia atrás puedes volver a la ${esquina, s}, \
+            y esa me, me temo, es la única salida.";
 };
 
 const objCubosBasura = ctrl.creaObj(
     "cubos de basura",
     [ "cubo", "cubos", "basura" ],
-    "Cerrados pero apestosos, no resultan nada golosos.",
-    locAlley
+    "Cerrados y aún así apestosos, no resultan nada apetitosos.",
+    locAlley,
+    Ent.Scenery
 );
 
 // ------------------------------------------------------ Reception -----------
@@ -220,7 +279,8 @@ const locReception = ctrl.places.creaLoc(
      Un ${aparato de radio, ex radio} reproducía una agradable melodía."
 );
 
-locReception.setExitBi( "s", locRoad );
+locReception.pic = "res/reception.jpg";
+locReception.setExitBi( "sur", locPLReception );
 locReception.getExitsDesc = function() {
     return "La recepción es tu casa, aunque puedes ${salir ahora, s}.";
 };
@@ -229,18 +289,20 @@ const objRadioRecepcion = ctrl.creaObj(
     "radio",
     [ "aparato" ],
     "",
-    locReception
+    locReception,
+    Ent.Scenery
 );
 
 objRadioRecepcion.listened = false;
 objRadioRecepcion.preExamine = function() {
-    var toret = this.desc;
+    let toret = this.desc;
 
-    if ( !objRadioRecepcion.listened ) {
+    if ( !this.listened ) {
         toret += "<br/>\"<i>There she stood in the doorway;\
                    <br/>I heard the mission bell.\
                    <br/>And I was thinking to myself:\
                    <br/>'This could be heaven or this could be Hell.'\"</i>";
+        this.listened = true;
     } else {
         toret += "Reproducía <i>pop</i> como compañía";
     }
@@ -260,10 +322,12 @@ const pnjWoman = ctrl.personas.creaPersona(
 const locHall = ctrl.places.creaLoc(
     "Hall",
     [ "hall" ],
-    ""
+    "El recibidor abre paso hacia \
+	 distintas dependencias: ${la recepción, s}, \
+	 ${el comedor, e}, y ${el pasillo, o}."
 );
 
-locHall.setExitBi( "s", locReception );
+locHall.setExitBi( "sur", locReception );
 locHall.getExitsDesc = function() {
     return "La recepción es tu casa, aunque puedes ${salir ahora, s}.";
 };
@@ -276,22 +340,9 @@ const objRadioHall = ctrl.creaObj(
 );
 
 // Achievements ================================================================
-ctrl.achievements.add( "flee_note",
-                       "Explorador (encontraste la nota de huida)." );
-ctrl.achievements.add( "bucket",
-                       "Ordenado (recogiste el cubo)." );
-ctrl.achievements.add( "perseverant",
-                       "Perseverante (encontraste la palanca)." );
-ctrl.achievements.add( "curious",
-                       "Curiosón (leíste el libro)." );
-ctrl.achievements.add( "farmer",
-                       "Granjero (encontraste la estaca)." );
-ctrl.achievements.add( "engineer",
-                       "Ingeniero (arreglaste el puente)." );
-ctrl.achievements.add( "sailor",
-                       "Navegante (cruzaste el lago)." );
-ctrl.achievements.add( "ambassador",
-                       "Embajador (hablaste con el guardián)." );
+ctrl.achievements.add( "acusica",
+                       "Chivato (avisaste a la policía)." );
+
 
 // Player & booting ============================================================
 const pc = ctrl.personas.creaPersona(

@@ -14,7 +14,7 @@
    viewBox="0 0 210 297"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.2 2405546, 2018-03-11"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14"
    sodipodi:docname="mapa-california.svg">
   <defs
      id="defs2" />
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="295.75969"
-     inkscape:cy="670.15502"
+     inkscape:cx="260.40435"
+     inkscape:cy="831.77943"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -53,29 +53,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       id="g840"
-       transform="translate(-84.457171,-40.624968)">
-      <rect
-         y="21.712385"
-         x="16.570711"
-         height="32.072342"
-         width="40.624966"
-         id="rect815"
-         style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332" />
-      <text
-         id="text827"
-         y="38.817638"
-         x="18.174328"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
-           y="38.817638"
-           x="18.174328"
-           id="tspan825"
-           sodipodi:role="line">North Corner</tspan></text>
-    </g>
-    <g
-       transform="translate(-32.606882,-41.159505)"
+       transform="translate(-86.595326,-41.159505)"
        id="g840-7">
       <rect
          y="21.712385"
