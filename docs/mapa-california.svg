@@ -2,20 +2,20 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="400mm"
+   height="325mm"
+   viewBox="0 0 400 325"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.4 5da689c313, 2019-01-14"
-   sodipodi:docname="mapa-california.svg">
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="mapa-california.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -26,16 +26,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.49497475"
-     inkscape:cx="260.40435"
-     inkscape:cy="831.77943"
+     inkscape:cx="554.57374"
+     inkscape:cy="346.48232"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="948"
-     inkscape:window-height="735"
+     inkscape:window-height="739"
      inkscape:window-x="58"
      inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     inkscape:window-maximized="0"
+     inkscape:pagecheckerboard="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -53,7 +54,7 @@
      inkscape:groupmode="layer"
      id="layer1">
     <g
-       transform="translate(-86.595326,-41.159505)"
+       transform="translate(-14.594867,-20.616146)"
        id="g840-7">
       <rect
          y="21.712385"
@@ -61,21 +62,21 @@
          height="32.072342"
          width="40.624966"
          id="rect815-2"
-         style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332" />
+         style="fill:#08fefd;fill-opacity:1;stroke-width:0.264583" />
       <text
          id="text827-6"
          y="38.817638"
          x="18.174328"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583"
            y="38.817638"
            x="18.174328"
            id="tspan825-4"
            sodipodi:role="line">Dump</tspan></text>
     </g>
     <g
-       transform="translate(-84.45717,31.537806)"
+       transform="translate(-12.456711,52.081165)"
        id="g840-5">
       <rect
          y="21.712385"
@@ -83,21 +84,21 @@
          height="32.072342"
          width="40.624966"
          id="rect815-20"
-         style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332" />
+         style="fill:#08fefd;fill-opacity:1;stroke-width:0.264583" />
       <text
          id="text827-2"
          y="38.817638"
          x="18.174328"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583"
            y="38.817638"
            x="18.174328"
            id="tspan825-9"
            sodipodi:role="line">Ice Machine</tspan></text>
     </g>
     <g
-       transform="translate(-31.003265,4.2763148)"
+       transform="translate(40.997194,24.819674)"
        id="g840-0">
       <rect
          y="21.712385"
@@ -105,21 +106,21 @@
          height="32.072342"
          width="40.624966"
          id="rect815-9"
-         style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332" />
+         style="fill:#08fefd;fill-opacity:1;stroke-width:0.264583" />
       <text
          id="text827-9"
          y="38.817638"
          x="18.174328"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583"
            y="38.817638"
            x="18.174328"
            id="tspan825-45"
            sodipodi:role="line">Corridor1</tspan></text>
     </g>
     <g
-       transform="translate(21.381559,3.7417758)"
+       transform="translate(93.382018,24.285135)"
        id="g840-1">
       <rect
          y="21.712385"
@@ -127,21 +128,21 @@
          height="32.072342"
          width="40.624966"
          id="rect815-0"
-         style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332" />
+         style="fill:#08fefd;fill-opacity:1;stroke-width:0.264583" />
       <text
          id="text827-3"
          y="38.817638"
          x="18.174328"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583"
            y="38.817638"
            x="18.174328"
            id="tspan825-7"
            sodipodi:role="line">Corridor2</tspan></text>
     </g>
     <g
-       transform="translate(159.29264,43.832205)"
+       transform="translate(231.2931,64.375564)"
        id="g840-1-4">
       <rect
          y="-18.912582"
@@ -149,20 +150,20 @@
          height="32.072342"
          width="40.624966"
          id="rect815-0-6"
-         style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332" />
+         style="fill:#08fefd;fill-opacity:1;stroke-width:0.264583" />
       <text
          id="text827-3-7"
          y="-1.8073298"
          x="-66.282845"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583"
            y="-1.8073298"
            x="-66.282845"
            id="tspan825-7-6"
            sodipodi:role="line">Corridor3</tspan></text>
       <rect
-         style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332"
+         style="fill:#08fefd;fill-opacity:1;stroke-width:0.264583"
          id="rect815-0-9"
          width="40.624966"
          height="32.072342"
@@ -170,7 +171,7 @@
          y="-18.912582" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
          x="-13.363478"
          y="-1.8073298"
          id="text827-3-75"><tspan
@@ -178,26 +179,25 @@
            id="tspan825-7-9"
            x="-13.363478"
            y="-1.8073298"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">Corridor4</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583">Corridor4</tspan><tspan
            id="tspan940"
            sodipodi:role="line"
            x="-13.363478"
-           y="11.421837"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332" /></text>
+           y="11.421795" /></text>
       <rect
          y="-18.378044"
          x="39.021347"
          height="32.072342"
          width="40.624966"
          id="rect815-0-8"
-         style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332" />
+         style="fill:#08fefd;fill-opacity:1;stroke-width:0.264583" />
       <text
          id="text827-3-5"
          y="-1.2727906"
          x="40.624966"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583"
            y="-1.2727906"
            x="40.624966"
            id="tspan825-7-3"
@@ -211,21 +211,21 @@
            height="32.072342"
            width="40.624966"
            id="rect815-0-83"
-           style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332" />
+           style="fill:#08fefd;fill-opacity:1;stroke-width:0.264583" />
         <text
            id="text827-3-79"
            y="38.817638"
            x="18.174328"
-           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583"
              y="38.817638"
              x="18.174328"
              id="tspan825-7-37"
              sodipodi:role="line">Room11</tspan></text>
       </g>
       <rect
-         style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332"
+         style="fill:#08fefd;fill-opacity:1;stroke-width:0.264583"
          id="rect815-0-84"
          width="40.624966"
          height="32.072342"
@@ -233,7 +233,7 @@
          y="34.541325" />
       <text
          xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
          x="39.555889"
          y="51.64658"
          id="text827-3-3"><tspan
@@ -241,7 +241,7 @@
            id="tspan825-7-7"
            x="39.555889"
            y="51.64658"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">Reception</tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583">Reception</tspan></text>
       <g
          transform="translate(20.847022,60.937454)"
          id="g840-1-97">
@@ -251,14 +251,14 @@
            height="32.072342"
            width="40.624966"
            id="rect815-0-99"
-           style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332" />
+           style="fill:#08fefd;fill-opacity:1;stroke-width:0.264583" />
         <text
            id="text827-3-32"
            y="38.817638"
            x="18.174328"
-           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583"
              y="38.817638"
              x="18.174328"
              id="tspan825-7-4"
@@ -268,7 +268,7 @@
          id="g840-1-8"
          transform="translate(21.916101,-84.457171)">
         <rect
-           style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332"
+           style="fill:#08fefd;fill-opacity:1;stroke-width:0.264583"
            id="rect815-0-7"
            width="40.624966"
            height="32.072342"
@@ -276,7 +276,7 @@
            y="21.712385" />
         <text
            xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
            x="18.174328"
            y="38.817638"
            id="text827-3-4"><tspan
@@ -284,12 +284,12 @@
              id="tspan825-7-1"
              x="18.174328"
              y="38.817638"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">Dinner</tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583">Dinner</tspan></text>
         <g
            id="g840-1-9"
            transform="translate(-107.44235,96.21703)">
           <rect
-             style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332"
+             style="fill:#08fefd;fill-opacity:1;stroke-width:0.264583"
              id="rect815-0-0"
              width="40.624966"
              height="32.072342"
@@ -297,7 +297,7 @@
              y="21.712385" />
           <text
              xml:space="preserve"
-             style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+             style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
              x="18.174328"
              y="38.817638"
              id="text827-3-9"><tspan
@@ -305,139 +305,139 @@
                id="tspan825-7-8"
                x="18.174328"
                y="38.817638"
-               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">Room 12</tspan></text>
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583">Room 12</tspan></text>
         </g>
       </g>
     </g>
     <rect
-       style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332"
+       style="fill:#08fefd;fill-opacity:1;stroke-width:0.264583"
        id="rect815-20-5"
        width="40.624966"
        height="32.072342"
-       x="38.486813"
-       y="75.700829" />
+       x="110.48727"
+       y="96.244194" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="40.090431"
-       y="92.806084"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="112.09089"
+       y="113.34944"
        id="text827-2-1"><tspan
          sodipodi:role="line"
          id="tspan825-9-7"
-         x="40.090431"
-         y="92.806084"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">Room 13</tspan></text>
+         x="112.09089"
+         y="113.34944"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583">Room 13</tspan></text>
     <rect
-       style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332"
+       style="fill:#08fefd;fill-opacity:1;stroke-width:0.264583"
        id="rect815-20-5-1"
        width="40.624966"
        height="32.072342"
-       x="-15.50163"
-       y="76.235367" />
+       x="56.498829"
+       y="96.778732" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-13.898015"
-       y="91.202469"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="58.102444"
+       y="111.74583"
        id="text827-2-1-7"><tspan
          sodipodi:role="line"
          id="tspan825-9-7-1"
-         x="-13.898015"
-         y="91.202469"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">Room 14</tspan></text>
+         x="58.102444"
+         y="111.74583"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583">Room 14</tspan></text>
     <g
        id="g840-11"
-       transform="translate(-83.92263,101.56243)">
+       transform="translate(-11.922171,122.10579)">
       <rect
          y="21.712385"
          x="16.570711"
          height="32.072342"
          width="40.624966"
          id="rect815-7"
-         style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332" />
+         style="fill:#08fefd;fill-opacity:1;stroke-width:0.264583" />
       <text
          id="text827-0"
          y="38.817638"
          x="18.174328"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583"
            y="38.817638"
            x="18.174328"
            id="tspan825-40"
            sodipodi:role="line">South Corner</tspan></text>
     </g>
     <rect
-       style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332"
+       style="fill:#08fefd;fill-opacity:1;stroke-width:0.264583"
        id="rect815-7-5"
        width="40.624966"
        height="32.072342"
-       x="143.25647"
-       y="125.9475" />
+       x="215.25693"
+       y="146.49086" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="144.86009"
-       y="143.05276"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="216.86055"
+       y="163.59613"
        id="text827-0-1"><tspan
          sodipodi:role="line"
-         x="144.86009"
-         y="143.05276"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+         x="216.86055"
+         y="163.59613"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583"
          id="tspan884">Parking Lot 1</tspan></text>
     <rect
-       style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332"
+       style="fill:#08fefd;fill-opacity:1;stroke-width:0.264583"
        id="rect815-7-5-2"
        width="40.624966"
        height="32.072342"
-       x="89.268028"
-       y="124.87842" />
+       x="161.26849"
+       y="145.42178" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="90.871651"
-       y="141.98369"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="162.87212"
+       y="162.52705"
        id="text827-0-1-1"><tspan
          sodipodi:role="line"
          id="tspan825-40-6-9"
-         x="90.871651"
-         y="141.98369"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">Parking Lot 2</tspan></text>
+         x="162.87212"
+         y="162.52705"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583">Parking Lot 2</tspan></text>
     <rect
-       style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332"
+       style="fill:#08fefd;fill-opacity:1;stroke-width:0.264583"
        id="rect815-7-5-6"
        width="40.624966"
        height="32.072342"
-       x="37.952274"
-       y="124.34387" />
+       x="109.95274"
+       y="144.88724" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="40.090435"
-       y="141.98369"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="112.0909"
+       y="162.52705"
        id="text827-0-1-4"><tspan
          sodipodi:role="line"
          id="tspan825-40-6-8"
-         x="40.090435"
-         y="141.98369"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">Parking Lot 3</tspan></text>
+         x="112.0909"
+         y="162.52705"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583">Parking Lot 3</tspan></text>
     <rect
-       style="fill:#08fefd;fill-opacity:1;stroke-width:0.26458332"
+       style="fill:#08fefd;fill-opacity:1;stroke-width:0.264583"
        id="rect815-7-5-6-0"
        width="40.624966"
        height="32.072342"
-       x="-15.50163"
-       y="123.80934" />
+       x="56.498829"
+       y="144.35271" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="-13.363473"
-       y="141.44916"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="58.636986"
+       y="161.99252"
        id="text827-0-1-4-8"><tspan
          sodipodi:role="line"
          id="tspan825-40-6-8-1"
-         x="-13.363473"
-         y="141.44916"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444447px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">Parking Lot 4</tspan></text>
+         x="58.636986"
+         y="161.99252"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.64444px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.264583">Parking Lot 4</tspan></text>
   </g>
 </svg>
