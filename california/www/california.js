@@ -620,7 +620,7 @@ pnjWoman.preTalk = function() {
                  <br/>─ Señor, es increíble, ¡una acaba de quedar libre!\
                  <br/>Tú sabes que no es cosa de que sea o no creíble...\
                  <br/>La mujer te da la llave. \
-                 ¡De descansar hasta mañana eres libre!";
+                 Por fin... ¡De descansar hasta mañana eres libre!";
         locReception.setExitBi( "norte", locHall );
         objRoomKey.moveTo( pc );
         ++this.status;
@@ -649,11 +649,62 @@ locHall.getExitsDesc = function() {
 };
 
 const objHallRadio = ctrl.creaObj(
-    "radio",
-    [ "aparato" ],
-    "",
+    "hilo musical",
+    [ "hilo", "musical" ],
+    "De los altavoces más arriba te llega una ${alegre melodía, escucha hilo}",
     locHall
 );
+
+objHallRadio.preListen = function() {
+    ctrl.print(
+        "<p><br/>Then she lit up a candle and she showed me the way. \
+        <br/>There were voices down the corridor. \
+        <br/>I thought I heard them say... \
+        <br/>Welcome to the Hotel California \
+        <br/>Such a lovely place (such a lovely place) \
+        <br/>Such a lovely face. \
+        <br/>Plenty of room at the Hotel California \
+        <br/>Any time of year... you can find it here.</p>"
+    );
+};
+
+
+// ------------------------------------------------- Corridor 1 ---------------
+const locCorridor1 = ctrl.places.creaLoc(
+    "Hall",
+    [ "hall" ],
+    "El corredor abre paso hacia \
+    a las distintas habitaciones. \
+    El ${el hall al este, e}, \
+    ${el corredor continúa al oeste, o}, \
+    y ${al sur la primera habitación, s}."
+);
+locCorridor1.setExitBi( "este", locHall );
+
+locCorridor1.getExitsDesc = function() {
+    return "La habitación al ${sur, sur}, el ${hall al este}, \
+            el ${correcor continúa al oeste}.";
+};
+
+const objCorridor1Radio = ctrl.creaObj(
+    "hilo musical",
+    [ "hilo", "musical" ],
+    "De los altavoces de arriba llega una ${alegre melodía, ex hilo}",
+    locCorridor1
+);
+
+objCorridor1Radio.preListen = function() {
+    ctrl.print(
+        "<p><br/>Then she lit up a candle and she showed me the way. \
+        <br/>There were voices down the corridor. \
+        <br/>I thought I heard them say... \
+        <br/>Welcome to the Hotel California \
+        <br/>Such a lovely place (such a lovely place) \
+        <br/>Such a lovely face. \
+        <br/>Plenty of room at the Hotel California \
+        <br/>Any time of year... you can find it here.</p>"
+    );
+};
 
 // Achievements ================================================================
 ctrl.achievements.add( "gato",
